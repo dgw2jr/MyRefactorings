@@ -52,7 +52,7 @@ namespace CodeRefactoring
             var identifierToken = typeDecl.Identifier;
             var newName = $"{identifierToken}.cs";
 
-            var cu = typeDecl.Parent.Parent as CompilationUnitSyntax;
+            var cu = typeDecl.SyntaxTree.GetCompilationUnitRoot();
             var usings = cu.Usings;
             
             var nodesToRemove = typeDecl.Parent.ChildNodes().Where(n => n != typeDecl && n.GetType() == typeDecl.GetType());
