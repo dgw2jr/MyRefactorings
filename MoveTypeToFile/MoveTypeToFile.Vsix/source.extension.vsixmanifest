@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+  <Metadata>
+    <Identity Id="CodeRefactoring..3372e262-2996-4ef2-8adc-28151546fdf3" Version="1.0" Language="en-US" Publisher="Don Woodford"/>
+    <DisplayName>MoveToFileCodeRefactoring</DisplayName>
+    <Description xml:space="preserve">This refactoring will move a type to its own file.</Description>
+  </Metadata>
+  <Installation>
+    <InstallationTarget Version="[14.0,]" Id="Microsoft.VisualStudio.Pro" />
+  </Installation>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.MefComponent" Path="|MoveToFileCodeRefactoring|" />
+  </Assets>
+</PackageManifest>
