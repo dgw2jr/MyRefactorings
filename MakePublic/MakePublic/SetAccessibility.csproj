@@ -33,7 +33,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="MakePublicCodeRefactoringProvider.cs" />
+    <Compile Include="Extensions.cs" />
+    <Compile Include="SetAccessibilityCodeRefactoringProvider.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

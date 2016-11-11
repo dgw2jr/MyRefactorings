@@ -52,9 +52,11 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\MakePublic\MakePublic.csproj">
+    <ProjectReference Include="..\MakePublic\SetAccessibility.csproj">
       <Project>{DE200092-8437-42E5-9EBE-5D74E14D6B0F}</Project>
-      <Name>MakePublic</Name>
+      <Name>SetAccessibility</Name>
+      <IncludeOutputGroupsInVSIX>BuiltProjectOutputGroup%3bBuiltProjectOutputGroupDependencies%3bGetCopyToOutputDirectoryItems%3bSatelliteDllsProjectOutputGroup%3b</IncludeOutputGroupsInVSIX>
+      <IncludeOutputGroupsInVSIXLocalOnly>DebugSymbolsProjectOutputGroup%3b</IncludeOutputGroupsInVSIXLocalOnly>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

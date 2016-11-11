@@ -7,9 +7,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoveToFileCodeRefactoring",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoveToFileCodeRefactoring.Vsix", "MoveTypeToFile\MoveTypeToFile.Vsix\MoveToFileCodeRefactoring.Vsix.csproj", "{A8103A9A-B940-47A5-9DD3-1CF0FC1A644E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MakePublic", "MakePublic\MakePublic\MakePublic.csproj", "{DE200092-8437-42E5-9EBE-5D74E14D6B0F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SetAccessibility", "MakePublic\MakePublic\SetAccessibility.csproj", "{DE200092-8437-42E5-9EBE-5D74E14D6B0F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MakePublic.Vsix", "MakePublic\MakePublic.Vsix\MakePublic.Vsix.csproj", "{6B06A787-1B6A-45A3-8970-6AA4C8B928D4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SetAccessibility.Vsix", "MakePublic\MakePublic.Vsix\SetAccessibility.Vsix.csproj", "{6B06A787-1B6A-45A3-8970-6AA4C8B928D4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
